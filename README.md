@@ -54,7 +54,7 @@ show mac address-table
  Repository Contents
 
 ```
-📁 Cisco-Packet-Tracer-PC-Communication
+Cisco-Packet-Tracer-PC-Communication
 │── README.md
 │── PC_to_PC_Communication.pkt
 │── images/
