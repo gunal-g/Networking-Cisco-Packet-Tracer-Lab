@@ -2,17 +2,17 @@
 
 A beginner-friendly Cisco Packet Tracer lab demonstrating how devices communicate within a Local Area Network (LAN). This project explains ARP, ICMP, MAC address learning, and Ethernet switching using Simulation Mode.
 
-## 📌 Objective
+ Objective
 
 Understand how a switch forwards packets and how PCs communicate in the same network.
 
-## 🛠️ Lab Setup
+ Lab Setup
 
 - 1 × Cisco Catalyst 2960 Switch
 - 3 × PCs
 - Copper Straight-Through Cables
 
-## 🌐 IP Addressing
+ IP Addressing
 
 | Device | IP Address | Subnet Mask |
 |---------|------------|-------------|
@@ -20,7 +20,7 @@ Understand how a switch forwards packets and how PCs communicate in the same net
 | PC1 | 192.168.1.2 | 255.255.255.0 |
 | PC2 | 192.168.1.3 | 255.255.255.0 |
 
-## 📖 Concepts Covered
+ Concepts Covered
 
 - ARP (Address Resolution Protocol)
 - ICMP (Ping)
@@ -29,14 +29,14 @@ Understand how a switch forwards packets and how PCs communicate in the same net
 - Ethernet Switching
 - Packet Flow Analysis
 
-## 🔄 Packet Flow
+ Packet Flow
 
 1. 🟧 ARP Request (Broadcast)
 2. 🟩 ARP Reply (Unicast)
 3. 🩷 ICMP Echo Request
 4. 🩷 ICMP Echo Reply
 
-## 🧪 Verification
+ Verification
 
 Ping from PC0 to PC1:
 
@@ -51,7 +51,7 @@ enable
 show mac address-table
 ```
 
-## 📂 Repository Contents
+ Repository Contents
 
 ```
 📁 Cisco-Packet-Tracer-PC-Communication
@@ -64,7 +64,7 @@ show mac address-table
 │   └── packet-flow.gif
 ```
 
-## 🎯 Learning Outcomes
+ Learning Outcomes
 
 - Learned how ARP resolves IP addresses to MAC addresses.
 - Understood ICMP Echo Request and Echo Reply.
@@ -72,12 +72,11 @@ show mac address-table
 - Explored Broadcast and Unicast communication.
 - Practiced network troubleshooting using Simulation Mode.
 
-## 👨‍💻 Author
+ Author
 
 **Gunal G**
 
 MCA Student | Linux | Networking | Cybersecurity Enthusiast
 
 ---
-
-⭐ If you found this project useful, consider giving this repository a star!
+If you found this project useful, consider giving this repository a star!
